@@ -1,16 +1,80 @@
-# React + Vite
+# 📊 Subscription Management Platform for Freelancers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern SaaS dashboard that helps **freelancers** manage all their tool subscriptions in one place — from tracking expenses to receiving renewal alerts and managing invoices.  
+The platform provides a clean, centralized interface to stay on top of every recurring payment, ensuring that no renewal or expense goes unnoticed.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧭 Overview
 
-## React Compiler
+Freelancers use dozens of online tools — design platforms, writing assistants, analytics dashboards, and more.  
+Managing renewals, invoices, and budgets across these tools can become confusing and time-consuming.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The **Subscription Management Platform** solves this problem by offering:
+- A **single dashboard** for all subscriptions  
+- **Automated alerts** for upcoming renewals  
+- **Invoice uploads** and spend tracking  
+- **Budget management** with variance summaries  
+- **Client mapping** to connect expenses with projects  
 
-## Expanding the ESLint configuration
+The system aims to save time, reduce financial stress, and provide clear insights into monthly and yearly spending.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Core Features
+
+### 🧑‍💼 User Accounts & Workspaces
+- Secure authentication with individual workspaces  
+- Support for multiple users or teams  
+- Role-based access and workspace collaboration  
+
+### 💳 Subscription Management
+- Add or import subscriptions manually or via CSV  
+- Categorize by vendor, cost, and billing frequency  
+- Tag tools by client, project, or usage type  
+- View renewals on a clean calendar interface  
+
+### 🔔 Renewal Alerts
+- Automatic alerts for renewals due soon  
+- Email or in-app notifications for upcoming payments  
+- Smart alerts to prevent duplicate reminders  
+
+### 📂 Invoice Tracking
+- Upload PDF or image invoices and link to subscriptions  
+- Store key details: amount, date, and vendor  
+- View total spend summaries by month or category  
+- Export invoice data as CSV for accounting  
+
+### 💰 Budgeting & Analytics
+- Set monthly or project-based budgets  
+- Track actual vs. planned spending  
+- Visual breakdown of costs per tool, client, or vendor  
+- Highlight overspending with visual alerts  
+
+### 👥 Client Mapping
+- Associate subscriptions with clients or projects  
+- Generate cost reports by client  
+- Identify high-value or low-ROI tools per client  
+
+### 📈 Reporting
+- Export filtered reports by date, client, or category  
+- Summary dashboard for total spend and renewals  
+- Insights into trends and recurring cost growth  
+
+---
+
+## 🎯 Project Goal
+
+To empower freelancers with **clarity and control** over their recurring digital expenses through automation, intelligent reporting, and simplified financial tracking — all within one intuitive platform.
+
+---
+
+## 🧠 Author
+
+**Course:** Advanced Web Development  
+**Project:** Subscription Management Platform for Freelancers  
+**Prepared by:** *ASAD TAUQEER, ASIM RAZA, KHAWAR HUSSAIN*  
+
+---
+
+> 💡 *Future updates will include integrations for email parsing, browser extensions, and advanced usage analytics.*
