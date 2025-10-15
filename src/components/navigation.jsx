@@ -32,8 +32,11 @@ export default function Navigation() {
               <Link to="/contact" className="nav-link">
                 Contact
               </Link>
+              <Link to="/login" className="nav-link">
+                Login
+              </Link>
               <Link
-                to="/contact"
+                to="/register"
                 className="btn-gradient px-6 py-2 font-medium"
               >
                 Get Started
@@ -93,7 +96,14 @@ export default function Navigation() {
               Contact
             </Link>
             <Link
-              to="/contact"
+              to="/login"
+              className="block px-3 py-2 nav-link hover:bg-white/5 rounded-md"
+              onClick={() => setIsOpen(false)}
+            >
+              Login
+            </Link>
+            <Link
+              to="/register"
               className="block mx-3 mt-4 btn-gradient text-center"
               onClick={() => setIsOpen(false)}
             >
