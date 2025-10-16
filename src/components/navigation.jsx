@@ -23,6 +23,9 @@ export default function Navigation() {
               <Link to="/" className="nav-link">
                 Home
               </Link>
+              <Link to="/dashboard" className="nav-link">
+                Dashboard
+              </Link>
               <Link to="/about" className="nav-link">
                 About
               </Link>
@@ -73,6 +76,13 @@ export default function Navigation() {
               onClick={() => setIsOpen(false)}
             >
               Home
+            </Link>
+            <Link
+              to="/dashboard"
+              className="block px-3 py-2 nav-link hover:bg-white/5 rounded-md"
+              onClick={() => setIsOpen(false)}
+            >
+              Dashboard
             </Link>
             <Link
               to="/about"

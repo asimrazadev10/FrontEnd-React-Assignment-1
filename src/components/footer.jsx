@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function Footer() {
     return (
       <footer className="bg-black border-t border-white/10">
@@ -16,9 +18,9 @@ export default function Footer() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             {/* Brand */}
             <div>
-              <a href="#home" className="text-2xl font-bold text-white mb-4 inline-block">
+              <Link to="/" className="text-2xl font-bold text-white mb-4 inline-block">
                 Sub<span className="text-purple-500">Flow</span>
-              </a>
+              </Link>
               <p className="text-gray-400 mb-4">
                 Your complete subscription management solution for freelancers and small businesses.
               </p>
@@ -55,24 +57,14 @@ export default function Footer() {
               <h3 className="text-white font-semibold mb-4">Product</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#services" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link to="/services" className="text-gray-400 hover:text-white transition-colors duration-200">
                     Features
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link to="/pricing" className="text-gray-400 hover:text-white transition-colors duration-200">
                     Pricing
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                    Integrations
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                    API
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -82,24 +74,24 @@ export default function Footer() {
               <h3 className="text-white font-semibold mb-4">Company</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#about" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link to="/about" className="text-gray-400 hover:text-white transition-colors duration-200">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link to="/careers" className="text-gray-400 hover:text-white transition-colors duration-200">
                     Careers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link to="/blog" className="text-gray-400 hover:text-white transition-colors duration-200">
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#contact" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link to="/contact" className="text-gray-400 hover:text-white transition-colors duration-200">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -109,24 +101,24 @@ export default function Footer() {
               <h3 className="text-white font-semibold mb-4">Support</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link to="/help" className="text-gray-400 hover:text-white transition-colors duration-200">
                     Help Center
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link to="/docs" className="text-gray-400 hover:text-white transition-colors duration-200">
                     Documentation
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link to="/privacy" className="text-gray-400 hover:text-white transition-colors duration-200">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <Link to="/terms" className="text-gray-400 hover:text-white transition-colors duration-200">
                     Terms of Service
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -136,15 +128,15 @@ export default function Footer() {
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">© 2025 SubFlow. All rights reserved.</p>
             <div className="flex gap-6">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
+              <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
                 Privacy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
+              </Link>
+              <Link to="/terms" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
                 Terms
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
+              </Link>
+              <Link to="/cookies" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
                 Cookies
-              </a>
+              </Link>
             </div>
           </div>
         </div>
