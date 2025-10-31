@@ -12,8 +12,9 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-2xl font-bold text-white">
-              Sub<span className="text-purple-500">Flow</span>
+            <Link to="/" className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-purple-600 via-purple-500 to-pink-600 shadow-lg shadow-purple-600/40" />
+              <span className="text-2xl font-bold heading-gradient">SubFlow</span>
             </Link>
           </div>
 
