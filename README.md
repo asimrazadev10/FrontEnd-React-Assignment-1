@@ -63,6 +63,16 @@ The system aims to save time, reduce financial stress, and provide clear insight
 
 ---
 
+## 🖼️ UI Glimpses
+
+✨ A quick look at the interface — designed for simplicity, clarity, and efficiency.
+
+<p align="center"> <img src="./screenshots/home.png" alt="Home Page" width="45%" style="margin:10px; border-radius:10px;" /> <img src="./screenshots/dashboard.png" alt="Dashboard" width="45%" style="margin:10px; border-radius:10px;" /> </p> <p align="center"> <img src="./screenshots/about.png" alt="About Page" width="45%" style="margin:10px; border-radius:10px;" /> <img src="./screenshots/services.png" alt="Services Page" width="45%" style="margin:10px; border-radius:10px;" /> </p> <p align="center"> <img src="./screenshots/contact.png" alt="Contact Page" width="45%" style="margin:10px; border-radius:10px;" /> <img src="./screenshots/login.png" alt="Login Page" width="45%" style="margin:10px; border-radius:10px;" /> </p>
+
+🖋️ All screenshots are located in the /screenshots directory.
+
+---
+
 ## 🎯 Project Goal
 
 To empower freelancers with **clarity and control** over their recurring digital expenses through automation, intelligent reporting, and simplified financial tracking — all within one intuitive platform.
